@@ -1,6 +1,6 @@
 ## IMDb Database
 
-Consider the schema of the IMDb (The Internet Movie Database). Write queries to answer the following questions. 
+Consider the schema of the [IMDb](https://www.imdb.com/) (The Internet Movie Database). Write queries to answer the following questions. 
 ```
 actors(id, first_name, last_name, gender, film_count)
 directors(id, first_name, last_name)

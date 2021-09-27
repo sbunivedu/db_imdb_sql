@@ -1,6 +1,6 @@
 ## IMDb Database
 
-Consider the schema of the [IMDb](https://www.imdb.com/) (The Internet Movie Database). Write queries to answer the following questions. 
+Consider the schema of the [IMDb](https://www.imdb.com/) (The Internet Movie Database). Write queries to answer the following questions.
 ```
 actors(id, first_name, last_name, gender, film_count)
 directors(id, first_name, last_name)
@@ -8,6 +8,7 @@ movies(id, name, year, rank)
 directors_genres(director_id, genre, prob)
 movies_directors(director_id, movie_id)
 movies_genres(movie_id, genre)
+roles(actor_id, movie_id, role)
 ```
 
 1. Find the actors who have "mick" in their first names.
